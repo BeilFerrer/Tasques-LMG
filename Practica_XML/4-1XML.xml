@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "4-1.dtd">
+<cataleg>
+    <single codi="S001">
+        <titol>Imagine</titol>
+        <descripcio>Cançó clàssica de John Lennon</descripcio>
+        <pais>Regne Unit</pais>
+        <idioma>Anglès</idioma>
+        <genere> <Pop/></genere>
+        <genere> <Rock_and_Roll/></genere>
+        <grup>The Beatles</grup>
+        <membres>
+            <membre sexe="home">
+                <nom>John Lennon</nom>
+            </membre>
+            <membre sexe="home">
+                <nom>Paul McCartney</nom>
+            </membre>
+        </membres>
+        <durada>3:05</durada>
+    </single>
+
+    <album codi="A001">
+        <titol>Abbey Road</titol>
+        <pais>Regne Unit</pais>
+        <idioma>Anglès</idioma>
+        <genere><Rock_and_Roll/></genere>
+        <grup>The Beatles</grup>
+        <membres>
+            <membre sexe="home">
+                <nom>John Lennon</nom>
+            </membre>
+            <membre sexe="home">
+                <nom>Paul McCartney</nom>
+            </membre>
+        </membres>
+        <numero_canco>2</numero_canco>
+        <titols_cancos>
+            <canco numero="1">
+                <titol_canco>Come Together</titol_canco>
+                <durada_canco>4:19</durada_canco>
+            </canco>
+            <canco numero="2">
+                <titol_canco>Something</titol_canco>
+                <durada_canco>3:03</durada_canco>
+            </canco>
+        </titols_cancos>
+    </album>
+</cataleg>
