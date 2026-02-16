@@ -1,0 +1,43 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "customer": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "cust_id": { "type": "integer" },
+          "fed_id": { "type": "string" },
+          "address": { "type": "string" },
+          "city": { "type": "string" },
+          "postal_code": { "type": "string" },
+          "state": { "enum": ["MA", "NH", "RI", "VE", "CN", "NY"] },
+          "first_name_ind": { "type": "string" },
+          "last_name_ind": { "type": "string" },
+          "birth_date": { "type": "string", "format": "date" },
+          "name": { "type": "string" },
+          "state_id": { "type": "string" },
+          "incorp_date": { "type": "string", "format": "date" },
+          "officer": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "officer_id": { "type": "integer" },
+                "first_name_off": { "type": "string" },
+                "last_name_off": { "type": "string" },
+                "start_date": { "type": "string", "format": "date" },
+                "end_date": { "type": "string", "format": "date" },
+                "title": { "enum": ["President", "CEO"] }
+              },
+              "required": ["officer_id", "first_name_off", "last_name_off"]
+            }
+          }
+        },
+        "required": ["cust_id", "fed_id"]
+      }
+    }
+  },
+  "required": ["customer"]
+}
