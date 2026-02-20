@@ -1,0 +1,36 @@
+﻿{
+  "cifp": {
+    "alumne": [
+      {
+        "id": 1,
+        "nom": "Joan",
+        "llinatges": "Garcia Serra",
+        "data_matricula": "2024-09-01",
+        "curs": "DAM"
+      },
+      {
+        "id": 10,
+        "nom": "Maria",
+        "llinatges": "López Pérez",
+        "data_matricula": "2024-09-01",
+        "curs": "DAW"
+      }
+    ],
+    "professor": [
+      {
+        "id": 5,
+        "nom": "Pere",
+        "llinatges": "Martí Torres",
+        "data_incorporacio": "2020-09-01",
+        "departament": "Informàtica",
+        "assignatura": [
+          {
+            "id_assignatura": 101,
+            "nom_assignatura": "Programació",
+            "cicle": "DAM"
+          }
+        ]
+      }
+    ]
+  }
+}
